@@ -11,7 +11,7 @@ export function useConnect({ ...props } = {}) {
   const context = useContext();
 
   const connectProps = {
-    chainId: context.options?.initialChainId,
+    // chainId: context.options?.initialChainId,
   };
 
   const { updateLastConnectorId } = useLastConnector();
